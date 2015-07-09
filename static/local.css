@@ -1,0 +1,54 @@
+html,body{
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+.footer {
+	position: relative;
+	margin-top: -50px;
+	height: 50px;
+	clear: both;
+	padding-top: 40px;
+}
+
+body {
+  padding-top: 70px; /* Navbar = 50; + 20 pad */
+  padding-bottom: 20px;
+}
+
+.authors {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.authors li {
+	margin: 5px;
+	margin-left: 30px;
+}
+
+.authors a {
+	font-weight: bold;
+}
+
+.well-clear {
+	background-color: transparent;
+}
+
+@media only screen and (min-width: 959px) {
+	#home_title {margin-top: 0;}
+}
+
+img.paper {
+	border: 1px solid;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ddd;
+}
+.navbar-inverse .navbar-brand {
+	color: #ddd;
+}
+

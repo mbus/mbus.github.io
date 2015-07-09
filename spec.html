@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+<html lang="${request.locale_name}">
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MBus">
+  <meta name="author" content="Pat Pannuto">
+  <link rel="shortcut icon" href="/static/img/MBus_no_text_with_line_square.png'">
+
+
+  <title>
+    
+    MBus
+     | Specification
+    
+  </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/static/local.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/static/img/MBus_inv.png" class="displayed" height="20px">
+        <i>An ultra-low power bus</i>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="/paper.html">Research Papers</a></li>
+        <li><a href="/spec.html">Specification</a></li>
+        <li><a href="/verilog.html">Verilog</a></li>
+        <li><a href="/ice.html">ICE Board</a></li>
+        <!--<li><a href="https://github.com/lab11/mbus" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>-->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="wrap">
+  <div class="content">
+    
+
+<div class="container">
+  <div class="well well-clear">
+    <div class="row">
+      <div class="col-lg-8 col-xs-12">
+        <h1>MBus Specification</h1>
+        <p>
+          The MBus Specification is and shall always be provided free of charge.
+          This site (<a href="http://mbus.io">mbus.io</a>) is the authoritative
+          home of the MBus Specification. Any and all updates and errata shall
+          be posted here.
+        </p>
+        <p>
+          We are currently in the process of preparing the final release of the
+          MBus specification. As we lead up to the release, we invite comments
+          from the community for any errata or suggestions for the specification.
+        </p>
+        <!--<strong>Specification Last Updated: June 11, 2015</strong>-->
+        <hr />
+        Timeline:
+        <dl class="dl-horizontal">
+          <dt>2015-06-14</dt>
+          <dd><a href="/spec-legal.html">MBus Specification v1.0-alpha</a></dd>
+          <dt>2015-07-31</dt>
+          <dd>MBus Specification v1.0-beta</dd>
+          <dt>2015-11-30</dt>
+          <dd>MBus Specification v1.0</dd>
+        </dl>
+      </div>
+      <div class="col-lg-4 hidden-xs">
+        <a href="/spec-legal.html">
+          <img src="/static/img/MBus-Specification-Front.png"
+          width="100%" class="paper"
+          title="MBus Specification" alt="Front Page of MBus Specification" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+<div class="footer" role="navigation">
+  <div class="container">
+    <div class="center-block">
+      MBus &copy; 2012-2015 The Regents of the University of Michigan
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script>
+$('#pannuto15mbus-bibtex-button').click(function () {
+    $('#pannuto15mbus-bibtex').toggle('fast');
+    });
+$('#kuo14mbus-bibtex-button').click(function () {
+    $('#kuo14mbus-bibtex').toggle('fast');
+    });
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-61951597-1', 'auto');
+ga('send', 'pageview');
+</script>
+</body>
+</html>

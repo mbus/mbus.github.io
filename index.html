@@ -1,0 +1,143 @@
+
+
+<!DOCTYPE html>
+<html lang="${request.locale_name}">
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MBus">
+  <meta name="author" content="Pat Pannuto">
+  <link rel="shortcut icon" href="/static/img/MBus_no_text_with_line_square.png'">
+
+
+  <title>
+    
+    MBus
+     | Home
+    
+  </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome icons -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/static/local.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/static/img/MBus_inv.png" class="displayed" height="20px">
+        <i>An ultra-low power bus</i>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="/paper.html">Research Papers</a></li>
+        <li><a href="/spec.html">Specification</a></li>
+        <li><a href="/verilog.html">Verilog</a></li>
+        <li><a href="/ice.html">ICE Board</a></li>
+        <!--<li><a href="https://github.com/lab11/mbus" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>-->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="wrap">
+  <div class="content">
+    
+
+<div class="container">
+    <div class="hidden-md hidden-sm hidden-xs">
+      <img src="/static/img/MBus_ecosystem.png" class="displayed" width="100%">
+    </div>
+  <div class="jumbotron">
+    <div>
+      <h2 id="home_title">MBus is the next-generation interconnect that enables the millimeter-scale computing class</h2>
+      <p>MBus is a chip-to-chip bus designed for ultra-constrained systems.
+      MBus is a multi-master bus supporting an arbitrary number of nodes,
+      priority arbitration, efficient acknowledgements, and extensible
+      addressing, with only four wires and consuming only
+      <strong>3.5&nbsp;pJ/bit/chip</strong>.</p>
+      <p>MBus is <i>power-aware</i>, enabling the design of
+      <i>power-oblivious</i> systems. Individual chips can fully power off and
+      MBus will automatically take care of all the tricky details.</p>
+    </div>
+  </div>
+  <div class="well well-clear">
+    <h4>
+      MBus was invented and built by a team of researchers at the
+      University of Michigan:
+    </h4>
+    <ul class="authors">
+      <li><a href="http://patpannuto.com">Pat Pannuto</a>, Ph.D. Student, University of Michigan</li>
+      <li><a href="http://sites.google.com/site/yoonmyunglee/">Yoonmyung Lee</a>, Assistant Professor, SungKyunKwan University</li>
+      <li><a href="http://web.eecs.umich.edu/~samkuo">Ye-Sheng Kuo</a>, Research Fellow, University of Michigan</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=zhiyoong">ZhiYoong Foo</a>, Co-Founder and CEO, CubeWorks; Research Fellow, University of Michigan</li>
+      <li><a href="http://web.eecs.umich.edu/~bpkempke">Ben Kempke</a>, Ph.D. Student, University of Michigan; Founder and CEO, Kempke Engineering</li>
+      <li><a href="http://blaauw.eecs.umich.edu/people.php?u=professor">David Blaauw</a>, Professor, University of Michigan; Co-Founder and Principal Advisor, Cubeworks</li>
+      <li><a href="http://web.eecs.umich.edu/~prabal">Prabal Dutta</a>, Associate Professor, University of Michigan; Co-Founder and Advisor, Cubeworks</li>
+    </ul>
+    <h4>
+      You can reach the MBus team at <a href="mailto:mbus-team@umich.edu">mbus-team@umich.edu</a>.
+    </h4>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+<div class="footer" role="navigation">
+  <div class="container">
+    <div class="center-block">
+      MBus &copy; 2012-2015 The Regents of the University of Michigan
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//oss.maxcdn.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//oss.maxcdn.com/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script>
+$('#pannuto15mbus-bibtex-button').click(function () {
+    $('#pannuto15mbus-bibtex').toggle('fast');
+    });
+$('#kuo14mbus-bibtex-button').click(function () {
+    $('#kuo14mbus-bibtex').toggle('fast');
+    });
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-61951597-1', 'auto');
+ga('send', 'pageview');
+</script>
+</body>
+</html>
